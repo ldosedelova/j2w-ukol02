@@ -7,6 +7,18 @@ html {
 *, *::before, *::after {
     box-sizing: inherit;
 }
+
+blockquote {
+    font-size: 40px;
+    text-shadow: 0 0 10px black;
+    line-height: 1.3em;
+    padding: 2em;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 1em;
+    backdrop-filter: blur(10px);
+    text-align: center;
+}
+
 body {
     font-family: 'Raleway', sans-serif;
     margin: 0;
@@ -18,14 +30,4 @@ body {
     background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-blockquote {
-    font-size: 64px;
-    text-shadow: 0 0 10px black;
-    line-height: 1.3em;
-    padding: 2em;
-    background-color: rgba(0, 0, 0, 0.4);
-    border-radius: 1em;
-    backdrop-filter: blur(10px);
 }
